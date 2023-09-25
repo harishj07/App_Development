@@ -1,0 +1,44 @@
+/* Footer styles */
+.footer {
+    background-color: #171616;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0; /* Place the footer at the bottom of the viewport */
+    left: 0; /* Align the footer with the left edge of the viewport */
+  }
+  
+  /* Footer Links */
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  /* Social Media Icons */
+  .footer-social {
+    display: flex-end; /* Make sure the icons are displayed in a row */
+    align-items: flex-end; /* Align the icons vertically in the center */
+  }
+  
+  .footer-social a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    margin-right: 15px;
+  }
+  
+  .footer-social a:last-child {
+    margin-right: 0;
+  }
+  
+  /* Footer Text */
+  .footer-text {
+    font-size: 14px;
+  }
+  

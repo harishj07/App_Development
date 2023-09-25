@@ -1,0 +1,50 @@
+/* Faq.css */
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 480px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .faq-list {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-item {
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .faq-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    padding: 15px; /* Add padding to each question for spacing */
+    border-bottom: 1px solid #e0e0e0;
+    max-height: 50px; /* Fixed height for each question */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 0 15px; /* Add padding to each answer for spacing */
+    white-space: pre-wrap;
+  }
+  
+  .faq-item.active .faq-answer {
+    display: block;
+    padding-top: 10px;
+  }
+  
