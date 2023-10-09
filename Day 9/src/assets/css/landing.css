@@ -1,0 +1,67 @@
+/* Landing.css */
+.landing-container {
+    background-image: url('D:\a react\logistics\src\assets\images\landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Other styles remain the same */
+  }
+  
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the landing page container */
+  .landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style for the navbar */
+  .navba {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #0a0a0a; /* You can change the background color */
+    color: white;
+    margin-top: -725px;
+    position: fixed;
+
+  }
+  
+  /* Style for the LSM logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style for the navigation links */
+  .nav-link {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .nav-links li:hover {
+    color: #00bcd4; /* Change the color on hover */
+  }
+  
+  /* Style for the content section */
+  .content {
+    text-align: center;
+  }
+  
+  /* Add more styles for your landing page content as needed */
+  
